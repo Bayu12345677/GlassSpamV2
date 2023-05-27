@@ -30,13 +30,13 @@ pkg update
 pkg upgrade
 apt install curl git
 apt install make clang
-apt install screen
-apt install python
+apt install screen ossp-uuid
+apt install python boxes
 apt install python-pip mpv
 pip install rich
 pip install rich-cli
-git clone https://github.com/Bayu12345677/Glass-Spam.git
-cd Glass-Spam
+git clone https://github.com/Bayu12345677/GlassSpamV2.git
+cd GlassSpamV2
 make setup
 make run
 ```
