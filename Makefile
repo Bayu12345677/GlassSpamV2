@@ -13,6 +13,6 @@ update:
 	gcc main.c -o main.out
 	@echo "[!] ketik make run"
 run:
-	@if ./main.out; then true; else echo "[!] hanya bisa di jalankan di direktori/folder termux (cd)"; fi
+	@if ./main.out; then true; else echo -e "[!] 0xfffff > hanya bisa di jalankan di direktori/folder termux (cd)\nDebug: ";./main.out; fi
 reset:
 	rm main.out
